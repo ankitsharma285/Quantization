@@ -261,12 +261,12 @@ def measure_tps(model_path, is_quantized=True, prompt="Explain the theory of rel
 #tps_baseline = measure_tps("mistralai/Mistral-7B-v0.3", is_quantized=False)
 tps_quant = measure_tps("/content/drive/My Drive/Mistral-7B-v0.3-AWQ-4bit-Wikitext", is_quantized=True)
 
---- BL Results ---
-⏱️ Total Time: 41.71 seconds
-📝 Tokens Generated: 200
-⚡ Throughput: 4.80 tokens/sec
+#--- BL Results ---
+#⏱️ Total Time: 41.71 seconds
+#📝 Tokens Generated: 200
+#⚡ Throughput: 4.80 tokens/sec
 
---- Results ---
-⏱️ Total Time: 40.10 seconds
-📝 Tokens Generated: 200
-⚡ Throughput: 4.99 tokens/sec
+#--- Results ---
+#⏱️ Total Time: 40.10 seconds
+#📝 Tokens Generated: 200
+#⚡ Throughput: 4.99 tokens/sec
