@@ -32,13 +32,15 @@ The highlight of this repo is the low-level kernel development. Instead of relyi
 ---
 
 ### 🏗️ Roadmap
-Component	Status
-LeakyReLU (Forward & Backward)	✅ Complete  
-FlashAttention (Forward Pass)	✅ Complete  
-FlashAttention (Backward Pass)	🚧 In Progress
-AWQ (Implementation)	🚧 In Progress  
-RMSNorm / GeLU	📅 Planned
-Mamba / State Space Models	📅 Planned
+| Feature | Status |
+| :--- | :--- |
+| **Leaky ReLU** (Forward & Backward) | ✅ Complete |
+| **Flash Attention** (Forward Pass) | ✅ Complete |
+| **Flash Attention** (Backward Pass) | 🚧 In Progress |
+| **AWQ** (Activation-aware Quantization) | 🚧 In Progress |
+| **RMSNorm** | 📅 Planned |
+| **GeLU** | 📅 Planned |
+| **Mamba** | 📅 Planned |
 
 #### Resources & Credits
 1. Reference Implementation on Flash Attention: Umar Jamil [project](https://www.youtube.com/watch?v=zy8ChVd_oTM)
